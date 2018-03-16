@@ -109,7 +109,7 @@ iex(2)> Geography.make_geo_list("geography.csv")
     name: "Dresden", population: 486854},
    %City{latitude: 53.57532, longitude: 10.01534, name: "Hamburg",
     population: 1739117}], language: "German", name: "Germany"}]
-----
+-----
 
 <<SOLUTION07-ET02,See a suggested solution in Appendix A.>>
 
