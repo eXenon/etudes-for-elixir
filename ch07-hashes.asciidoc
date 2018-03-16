@@ -89,7 +89,7 @@ Define two structures. The first one, +Country+ has fields for the country name,
 Then, define a module named +Geography+. It has a function +make_geo_list/1+, whose argument is the name of the CSV file. It returns a list of +Country+ structures and their cities, as shown here:
 
 // [source, iex]
-----
+-----
 iex(1)> c "geography.ex"
 [Geography, Country, City]
 iex(2)> Geography.make_geo_list("geography.csv")
@@ -140,7 +140,7 @@ iex(1)> glist = Geography.make_geo_list("geography.csv")
     population: 1739117}], language: "German", name: "Germany"}]
 iex(2)> Geography.total_population(glist, "Korean")
 12915852
-----
+-----
 
 <<SOLUTION07-ET03,See a suggested solution in Appendix A.>>
 
